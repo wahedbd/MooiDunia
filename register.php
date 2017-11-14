@@ -108,7 +108,7 @@ require 'includes/form_handlers/login_handler.php';
 					<br>
 					<input type="password" name="reg_password2" placeholder="Confirm password" required>
 					<br>
-					<?php if (in_array("Your passwords do not match<br>", $error_array)) echo "Your passwords don't match<br>"; 
+					<?php if (in_array("Passwords do not match<br>", $error_array)) echo "Passwords don't match<br>"; 
 					else if (in_array("Your password can only contain english characters or numbers<br>", $error_array)) {
 						echo "Your password can only contain english characters or numbers<br>"; 
 					}

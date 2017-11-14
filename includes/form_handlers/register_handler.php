@@ -76,7 +76,7 @@ if (isset($_POST['register_button'])) {
 	}
 
 	if ($password != $password2) {
-		array_push($error_array, "Your passwords do not match<br>");
+		array_push($error_array, "Passwords do not match<br>");
 	}
 	else {
 		if (preg_match('/[^A-Za-z0-9]/', $password)) {
